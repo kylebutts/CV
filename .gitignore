@@ -18,3 +18,8 @@
 *.fdb_latexmk
 *.run.xml
 *.synctex.gz
+.Rproj.user
+
+
+node_modules/*
+

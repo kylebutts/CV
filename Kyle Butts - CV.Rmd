@@ -1,0 +1,197 @@
+---
+title: "Kyle Butts - CV "
+author: "Kyle Butts"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  xaringan::moon_reader:
+    css: ['default']
+    ## No title slide
+    seal: false
+    self_contained: true
+    nature:
+      ratio: '8.5:11'
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r preamble, child=here::here("document-preamble.Rmd")}
+```
+
+```{r, echo = F}
+library(icons)
+library(tidyverse)
+library(gt)
+```
+
+
+<h1 class="font-bold text-center text-kelly-500 bg-kelly-50 px-4 py-2 w-full">Kyle Butts - CV</h1>
+
+Email: <a class="font-bold underline decoration-2 decoration-alice-500" href="mailto:kyle.butts@colorado.edu">kyle.butts@colorado.edu</a>, 
+Website: <a class="font-bold underline decoration-2 decoration-alice-500" href="https://www.kylebutts.com">kylebutts.com</a>
+
+University of Colorado: *Boulder*
+
+<h2 class="mt-8 text-alice-500 bg-alice-50 px-2 py-1 inline-block">Education</h2>
+
+<div class="grid grid-cols-[5rem_1fr] items-center gap-y-2">
+<p class="text-kelly-500">Current</p>
+<p>PhD Candidate, Economics, <i>University of Colorado, Boulder</i></p>
+<p class="text-kelly-500">2021</p>
+<p>Masters, Economics, <i>University of Colorado, Boulder</i></p>
+<p class="text-kelly-500">2017</p>
+<p>B.S., Mathematics <i>University of California, Santa Barbara</i></p>
+</div>
+
+
+<h2 class="mt-8 text-alice-500 bg-alice-50 px-2 py-1 inline-block">Publications</h2>
+
+<div>
+<div class="flex flex-row items-baseline gap-x-2">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" class="shrink-0 h-4 w-4 mt-[0.375rem]"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+<h2>
+<a class="font-bold underline decoration-2 decoration-alice-500" href="https://kylebutts.com/files/Spatial_Difference-in-Discontinuities.pdf">
+Geographic Difference-in-Discontinuities
+</a>
+</h2>
+</div>
+<h3 class="font-light text-sm mt-2">
+<i>Applied Economics Letter</i>, 2021.
+</h3>
+</div> 
+    
+
+<h2 class="mt-8 text-alice-500 bg-alice-50 px-2 py-1 inline-block">Working Papers</h2>
+
+<div>
+<div class="flex flex-row items-baseline gap-x-2">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" class="shrink-0 h-4 w-4 mt-[0.375rem]"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+<h2>
+<a class="font-bold underline decoration-2 decoration-alice-500" href="https://arxiv.org/abs/2110.10192">
+Difference-in-Differences with Geocoded Microdata
+</a>
+</h2>
+</div>
+<h3 class="font-light text-sm mt-2">
+R&amp;R at Journal of Urban Economics: Insights
+</h3>
+</div> 
+
+
+<div>
+<div class="flex flex-row items-baseline gap-x-2">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" class="shrink-0 h-4 w-4 mt-[0.375rem]"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+<h2>
+<a class="font-bold underline decoration-2 decoration-alice-500" href="https://arxiv.org/abs/2109.05913">
+<code>did2s</code>: Two-stage Difference-in-Differences
+</a>
+</h2>
+</div>
+<h3 class="font-light text-sm mt-2">
+<i>R&amp;R at <code>R</code> Journal</i>
+</h3>
+<p>
+(w/ <a href="https://jrgcmu.github.io/" class="underline decoration-2 decoration-alice-500">John Gardner</a>) 
+</p>
+</div> 
+
+
+<div>
+<div class="flex flex-row items-baseline gap-x-2">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" class="shrink-0 h-4 w-4 mt-[0.375rem]"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+<h2>
+<a class="font-bold underline decoration-2 decoration-alice-500" href="https://arxiv.org/abs/2105.03737">
+Difference-in-Differences with Spatial Spillovers
+</a>
+</h2>
+</div>
+<h3 class="font-light text-sm mt-2">
+</h3>
+</div> 
+
+
+<h2 class="mt-8 text-alice-500 bg-alice-50 px-2 py-1 inline-block">Work in Progess</h2>
+
+<div>
+<div class="flex flex-row items-baseline gap-x-2">
+<h2>
+The Evolution of the Urban Wage Premium Over Time
+</h2>
+</div>
+<h3 class="font-light text-sm mt-2">
+</h3>
+<p>
+(w/ <a href="jaworskit.github.io/" class="underline decoration-2 decoration-alice-500">Taylor Jaworski</a> and <a href="https://sites.google.com/site/kitchct/" class="underline decoration-2 decoration-alice-500">Carl Kitchens</a>) 
+</p>
+</div> 
+
+<div>
+<div class="flex flex-row items-baseline gap-x-2">
+<h2>
+Single-Family Zoning Laws and Land Value: Evidence from New England
+</h2>
+</div>
+<h3 class="font-light text-sm mt-2">
+</h3>
+</div> 
+
+
+---
+
+<h2 class="mt-8 text-alice-500 bg-alice-50 px-2 py-1 inline-block">Presentations</h2>
+
+<div class="grid grid-cols-[5rem_1fr] items-center gap-y-2">
+<p class="text-kelly-500">2022</p>
+<p>University of Louisianna: Lafayette <i>(invited)</i>, University of Rochester HEEL Lab</p>
+<p class="text-kelly-500">2021</p>
+<p>WEAI Annual Conference</p>
+</div>
+
+
+<h2 class="mt-8 text-alice-500 bg-alice-50 px-2 py-1 inline-block">Awards</h2>
+
+
+<div class="grid grid-cols-[5rem_1fr] items-center gap-y-2">
+<p class="text-kelly-500">2022</p>
+<p>Morris E. Garnsey Fellowship, <i>University of Colorado, Boulder</i></p>
+<p class="text-kelly-500">2021</p>
+<p>Leslie Whittington Memorial Fellowship for Excellence in Economics, <i>University of Colorado, Boulder</i></p>
+<p class="text-kelly-500">2020</p>
+<p>Prize in Econometrics, <i>University of Colorado, Boulder</i></p>
+</div>
+
+
+<h2 class="mt-8 text-alice-500 bg-alice-50 px-2 py-1 inline-block">Teaching</h2>
+
+<div class="grid grid-cols-[8rem_1fr] items-center gap-y-2">
+<p class="text-kelly-500">2021-present</p>
+<p><a class="font-bold underline decoration-2 decoration-alice-500" href="https://github.com/kylebutts/ECON3535_S2022">
+Natural Resource Economics
+</a> (<i>University of Colorado, Boulder</i>)</p>
+
+<p class="text-kelly-500">2020-present</p>
+<p><a class="font-bold underline decoration-2 decoration-alice-500" href="https://github.com/kylebutts/ECON3818_F2021">
+Introduction to Probability and Statistics
+</a> (<i>University of Colorado, Boulder</i>)</p>
+</div>
+
+
+
+
+
+<h2 class="mt-8 text-alice-500 bg-alice-50 px-2 py-1 inline-block">Professional Services</h2>
+
+
+<div class="grid grid-cols-[8rem_1fr] items-center gap-y-2">
+<p class="text-kelly-500">2021-present</p>
+<p>Organizer, Mixtape Sessions</p>
+<p class="text-kelly-500">2020-present</p>
+<p>Organizer, Graduate Student Research Seminar</p>
+</div>
+
+<div class="my-8">
+<b>Updated:</b> `r Sys.time() |> lubridate::as_date()`
+</div>
+
+
+
